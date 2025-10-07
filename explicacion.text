@@ -1,0 +1,5 @@
+explicaciones:
+herencia: la herencia es un tipo de relación entre tablas de entidad, donde existe la superclase y la clase hijo, donde la clase hijo “hereda”  todos los atributos y métodos de la superclase, pero aun así la clase hijo puede modificar y agregar nuevos atributos y métodos.
+clase abstracta:  se trata de una clase que no puede ser instanciada, eso quiere decir que no se pueden crear objetos directamente en ella, ya que más bien está diseñada para ser como clase plantilla para otras clases, como las @dataclass.  
+polimorfismo: el polimorfismo es cuando tenemos una superclase y muchas clases hijos y todas las clases hijos heredan un método en común , por ejemplo método de hacer un ruido, en lugar de crear variables para cada tipo específico, usamos la clase base para referirnos a cualquier objeto que pertenezca a la jerarquía y el código solo llama a un solo método sin verificar el objeto que hace el ruido.
+interfaz: es como un decorador, un contrato o un conjunto de reglas que una clase debe aceptar y cumplir, además tampoco se pueden crear objetos directamente.
